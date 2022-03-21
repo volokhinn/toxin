@@ -1,7 +1,9 @@
 html(lang="ru")
   head
     meta(charset="utf-8")
-    title= "Pug. Начало работы"
-    
+    title= "Toxin"
   body
-    h1 Hello, World!
+    include ./components/text-field/text-field.pug
+    include ./components/toggle/toggle.pug
+    +textInput
+    +toggle

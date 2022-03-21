@@ -1,0 +1,52 @@
+@import '../../style/layout/vars.scss';
+
+.toggle {
+    position: relative;
+    display: flex;
+    text-align: center;
+
+
+    &__inp {
+        appearance: none;
+    }
+
+    &__slider {
+        position: absolute;
+        top: 2px;
+        left: 0;
+        width: 40px;
+        height: 20px;
+        cursor: pointer;
+        border: 1px solid $Dark-25;
+        background-color: #fff;
+        transition: 0.4s;
+        border-radius: 10px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: calc(14px - 50%);
+            left: 3px;
+            width: 12px;
+            height: 12px;
+            background: $Dark-25;
+            border-radius: 10px;
+            transition: 0.4s;
+        }
+    }
+
+    &__text {
+        margin-left: 43px;
+    }
+
+    &__inp:checked+&__slider {
+        border-color: $Purple;
+        transition: 0.4s;
+
+        &::before {
+            left: 23px;
+            background: $Gradient;
+            transition: 0.4s;
+        }
+    }
+}

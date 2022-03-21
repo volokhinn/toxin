@@ -1,0 +1,20 @@
+@import '../vars.scss';
+
+@mixin text-field {
+    box-sizing: border-box;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+    width: 320px;
+    height: 44px;
+    padding: 0 15px;
+    z-index: 10;
+        &::placeholder {
+            color: $Dark-25;
+        }
+        &:focus, 
+        &:active,
+        &:hover {
+            outline: none;
+            border: 1px solid $Dark-50;
+        }
+}

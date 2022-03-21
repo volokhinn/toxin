@@ -1,0 +1,14 @@
+@import './layout/vars.scss';
+@import './layout/components/text-field.scss';
+@import '../components/toggle/toggle.scss';
+@import './layout/fonts.scss';
+
+html,
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    color: $Dark-75;
+    height: 100%;
+}

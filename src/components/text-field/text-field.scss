@@ -1,0 +1,11 @@
+@import '../../style/layout/components/text-field.scss';
+
+.text {
+    @include text-field;
+    position: relative;
+}
+
+.text-input__input {
+    @include text-field;
+    position: relative;
+}
