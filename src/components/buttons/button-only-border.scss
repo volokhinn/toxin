@@ -1,0 +1,26 @@
+.button-border {
+    width: 99px;
+    height: 44px;
+    border-radius: 22px;
+    border: 2px;
+    background: 
+    linear-gradient(white, white) padding-box,
+    $Gradient border-box;
+    border-radius: 22px;
+    border: 2px solid transparent;
+
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $Purple;
+    &:hover {
+        background:
+        linear-gradient(white, white) padding-box,
+        $Gradient-50 border-box;
+    }
+    
+    &:active {
+        transform: translate(0.5px, 0.5px);
+    }
+}

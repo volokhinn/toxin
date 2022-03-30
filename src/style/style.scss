@@ -3,7 +3,11 @@
 @import './layout/components/text-field.scss';
 @import '../components/toggle/toggle.scss';
 @import '../components/bullet-list/bullet-list.scss';
-@import '../components/checkbox-list/checkbox-list.scss';
+@import './layout/components/checkbox.scss';
+@import '../components/buttons/small-btn.scss';
+@import '../components/buttons/button-only-border.scss';
+@import '../components/buttons/button-no-border.scss';
+@import '../components/buttons/button-big.scss';
 
 html,
 body {

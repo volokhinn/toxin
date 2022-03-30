@@ -1,0 +1,21 @@
+@import '../../style/layout/vars.scss';
+
+.button-no-border {
+    background: none;
+    appearance: none;
+    border: none;
+    
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $Purple;
+
+    &:hover {
+        color: $Dark-50;
+    }
+
+    &:active {
+        transform: translate(0.5px, 0.5px);
+    }
+}

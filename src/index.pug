@@ -7,7 +7,15 @@ html(lang="ru")
     include ./components/toggle/toggle.pug
     include ./components/bullet-list/bullet-list.pug
     include ./components/checkbox-list/checkbox-list.pug
-    +textInput
-    +toggle
+    include ./components/buttons/small-btn.pug
+    include ./components/buttons/button-only-border.pug
+    include ./components/buttons/button-no-border.pug
+    include ./components/buttons/button-big.pug
+    +textInput("Email")
+    +toggle("Получать спецпредложения")
     +bullet-list
     +checkbox-list
+    +buttonSmall("Click me")
+    +buttonBorder("Click me")
+    +buttonNoBorder("Click me")
+    +buttonBig("Перейти к оплате")
