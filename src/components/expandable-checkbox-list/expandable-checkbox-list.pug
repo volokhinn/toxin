@@ -1,0 +1,23 @@
+mixin expCheckbox(title)
+    .expandable__head
+        h3.expandable__head-title= title
+        i.material-icons.material-icons--color50.material-icons--bold.expandable__head-icon expand_more
+    form.expandable-checkbox
+        label.expandable-checkbox__label
+            input(type='checkbox' checked).expandable-checkbox__label-input
+            | Завтрак
+        label.expandable-checkbox__label
+            input(type='checkbox').expandable-checkbox__label-input
+            | Письменный стол
+        label.expandable-checkbox__label
+            input(type='checkbox').expandable-checkbox__label-input
+            .expandable-checkbox__label-text Стул для кормления
+        label.expandable-checkbox__label
+            input(type='checkbox').expandable-checkbox__label-input
+            .expandable-checkbox__label-text Кроватка
+        label.expandable-checkbox__label
+            input(type='checkbox').expandable-checkbox__label-input
+            .expandable-checkbox__label-text Телевизор
+        label.expandable-checkbox__label
+            input(type='checkbox').expandable-checkbox__label-input
+            .expandable-checkbox__label-text Шампунь

@@ -1,0 +1,21 @@
+@import '../../style/layout/components/text-field.scss';
+
+.subscription {
+    position: relative;
+    width: fit-content;
+
+    &__text {
+        @include text-field;
+        max-width: 266px;
+        padding-right: 2.2em;
+    }
+
+    &__icon {
+        position: absolute;
+        top: 0.4em;
+        right: 0.3em;
+        cursor: pointer;
+        border: none;
+        background: transparent;
+    }
+}

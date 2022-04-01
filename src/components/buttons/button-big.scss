@@ -1,17 +1,19 @@
 .button-big__submit {
+    border: none;
+    border-radius: 22px;
+    outline: none;
+    font-family: inherit;
+    cursor: pointer;
+    background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+    text-transform: uppercase;
+    color: #FFF;
     width: 320px;
     height: 44px;
-    border-radius: 22px;
-    background: $Gradient;
-    border: none;
-    cursor: pointer;
-
     font-weight: 700;
     font-size: 12px;
     line-height: 15px;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 4px;
 
         &:hover {
             opacity: 0.5;

@@ -12,6 +12,9 @@ html(lang="ru")
     include ./components/buttons/button-no-border.pug
     include ./components/buttons/button-big.pug
     include ./components/rich-checkbox/rich-checkbox.pug
+    include ./components/like-button/like-button.pug
+    include ./components/subscription-text-field/subscription-text-field.pug
+    include ./components/expandable-checkbox-list/expandable-checkbox-list.pug
 
     +textInput("Email")
     +toggle("Получать спецпредложения")
@@ -22,3 +25,6 @@ html(lang="ru")
     +buttonNoBorder("Click me")
     +buttonBig("Перейти к оплате")
     +rich-checkbox
+    +like("12")
+    +subTextField("Email")
+    +expCheckbox("title")
